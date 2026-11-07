@@ -1,0 +1,15 @@
+{
+  "name": "convite-juju",
+  "version": "1.0.0",
+  "description": "Convite interativo do primeiro aninho da Juju",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}

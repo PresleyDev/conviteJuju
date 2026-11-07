@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <meta name="theme-color" content="#fff0f4">
+  <meta name="description"
+        content="Você está convidado para o primeiro aninho da Juju!">
+
+  <title>1º Aninho da Juju 🦋</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+  <main class="app">
+
+    <!-- CENA 1: ENVELOPE -->
+    <section id="abertura" class="tela abertura">
+      <h1>Um convite especial chegou para você!</h1>
+      <p>Um jardim encantado espera por você 🦋</p>
+
+      <button id="envelope"
+              class="envelope"
+              type="button"
+              aria-label="Abrir convite da Juju">
+        <span class="envelope-corpo"></span>
+        <span class="aba"></span>
+        <span class="selo">🦋</span>
+      </button>
+
+      <p class="instrucoes">Toque para abrir</p>
+    </section>
+
+    <!-- CENA 2: BORBOLETAS -->
+    <div id="ceu-borboletas"
+         class="ceu-borboletas"
+         aria-hidden="true"></div>
+
+    <!-- CENA 3: CONVITE -->
+    <section id="resultado"
+             class="tela resultado"
+             hidden>
+
+      <div class="cartao">
+        <img
+          src="images/conviteJuju.png"
+          alt="Convite do primeiro aniversário da Juju,
+          29 de novembro, às 15h30,
+          Avenida Ourives, 980, Salão de Festas.">
+      </div>
+
+      <nav class="acoes" aria-label="Ações do convite">
+        <a id="confirmar"
+           class="botao"
+           href="#">
+          Confirmar presença
+        </a>
+
+        <a class="botao secundario"
+           href="https://www.google.com/maps/search/?api=1&amp;query=Avenida%20Ourives%20980%20Sao%20Paulo"
+           target="_blank"
+           rel="noopener noreferrer">
+          Como chegar
+        </a>
+
+        <button id="repetir"
+                class="botao secundario"
+                type="button">
+          Ver animação novamente
+        </button>
+      </nav>
+    </section>
+
+  </main>
+</body>
+</html>

@@ -1,0 +1,15 @@
+# Dependências
+node_modules/
+
+# Logs do npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# TypeScript Build Info
+*.tsbuildinfo
